@@ -1,0 +1,64 @@
+.detail-doctor-container {
+
+    .detail-doctor-content {
+        padding-top: 30px;
+
+        .detail-doctor-content__intro--content {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            .detail-doctor-content__intro--right {
+                // background-image: url('../../../../assets/doctor/bshung.jpg');
+                width: 120px;
+                height: 120px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: #eee;   
+                cursor: pointer;
+                margin-right: 20px;
+                border-radius: 50%;
+            }
+
+            .detail-doctor-content__intro--left {
+                p {
+                    margin-bottom: 0;
+                    color: #555;
+                    font-size: 14px;
+                }
+
+                h2 {
+                    font-size: 27px;
+                    margin-bottom: 10px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .detail-doctor-content__desc {
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+            background-color: #f9f9f9;
+            padding-bottom: 20px;
+        }
+
+        .detail-doctor-content__schedule {
+            
+            .detail-doctor-content__schedule--content {
+                display: flex;
+                padding-top: 10px;
+                padding-bottom: 20px;
+                justify-content: space-between;
+
+                .detail-doctor-content__schedule--left {
+                    padding: 0;
+                }
+
+                .detail-doctor-content__schedule--right {
+                    padding-top: 40px;
+                }
+            }
+        }
+    }
+}

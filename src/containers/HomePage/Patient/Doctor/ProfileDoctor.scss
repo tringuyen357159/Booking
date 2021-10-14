@@ -1,0 +1,39 @@
+.profile-doctor-content__intro{
+
+    .profile-doctor-content__intro--content {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    
+        .profile-doctor-content__intro--right {
+            // background-image: url('../../../../assets/doctor/bshung.jpg');
+            width: 80px;
+            height: 80px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #eee;   
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+    
+        .profile-doctor-content__intro--left {
+            p {
+                margin-bottom: 0;
+                color: #555;
+                font-size: 14px;
+            }
+    
+            h2 {
+                font-size: 20px;
+                margin-bottom: 5px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .profile-doctor-content__intro--link {
+        color: #45c3d2;
+        text-decoration: none;
+    }
+}

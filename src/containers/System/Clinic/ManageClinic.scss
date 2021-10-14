@@ -1,0 +1,45 @@
+.manage-clinic-container {
+
+    .manage-clinic-content {
+        padding-top: 30px;
+
+        .manage-clinic-content__lable {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .manage-clinic-content__customize {
+            display: flex;
+
+            .manage-clinic-content__upload {
+                padding: 6px 8px;
+                border-radius: 4px;
+                border: 1px solid #ccc;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #0071ba;
+                    color: white;
+                    border: 1px solid #0071ba;
+                }
+
+                i {
+                    margin-left: 4px;
+                }
+
+            }
+
+            .manage-clinic-content__img {
+                border: 1px solid #ccc;
+                padding: 8px 0;
+                border-radius: 4px;
+                background: center center no-repeat;
+                background-size: contain;
+                width: 150px;
+                cursor: pointer;
+                margin-left: 20px;
+            }
+        }
+    }
+}

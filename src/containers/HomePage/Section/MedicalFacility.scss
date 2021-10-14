@@ -1,0 +1,103 @@
+.medicalfacility {
+    background-color: #f5f5f5;
+    border-bottom: 3px solid #efeef5;
+
+    .section-medicalfacility {
+        padding: 30px 62px;
+    
+        .section-medicalfacility-content {
+    
+            .section-medicalfacility-content__header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 24px 40px 0;
+    
+                .section-medicalfacility-content__header--title {
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+    
+                .section-medicalfacility-content__header--btn {
+                    padding: 10px 14px;
+                    background-color: #ebebeb;
+                    color: #282e41;
+                    font-size: 14px;
+                    outline: none;
+                    border: none;
+    
+                    &:hover {
+                        background-color: #f7d800;
+                        color: #fff;
+                    }
+                }
+            }
+    
+            .section-medicalfacility-content__item {
+                display: flex;
+                flex-direction: column;
+                
+    
+                .section-medicalfacility-content__item--img {
+                    // background-image: url('../../../assets/medicalfacility/benh-vien-cho-ray-h1.jpg');
+                    width: 234px;
+                    height: 156px;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-color: #eee;   
+                    cursor: pointer;
+                }
+    
+                .section-medicalfacility-content__item--title {
+                    padding: 8px 0;
+                    font-size: 14px;
+                    cursor: pointer;
+                    padding-right: 20px;
+    
+                    &:hover {
+                        color: #45c3d2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//reset css
+
+.slick-prev {
+    left: -10px !important;
+    z-index: 1000;
+    height: 48px !important;
+    width: 44px !important;
+    background-color: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:before {
+        font-family: FontAwesome !important;
+        color: #45c3d2 !important;
+    }
+
+    &:hover {
+        background-color: #d7d7d7 !important;  
+    }
+}
+
+.slick-next {
+    right: 10px !important;
+    height: 48px !important;
+    width: 44px !important;
+    background-color: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:before {
+        font-family: FontAwesome !important;
+        color: #45c3d2 !important;
+    }
+
+    &:hover {
+        background-color: #d7d7d7 !important;  
+    }
+}

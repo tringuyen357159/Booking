@@ -1,0 +1,102 @@
+.handbook {
+    background-color: #f5f5f5;
+    border-bottom: 3px solid #efeef5;
+
+    .section-handbook {
+        padding: 30px 62px;
+    
+        .section-handbook-content {
+    
+            .section-handbook-content__header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 30px 24px 40px 0;
+    
+                .section-handbook-content__header--title {
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+    
+                .section-handbook-content__header--btn {
+                    padding: 10px 14px;
+                    background-color: #ebebeb;
+                    color: #282e41;
+                    font-size: 14px;
+                    outline: none;
+                    border: none;
+    
+                    &:hover {
+                        background-color: #f7d800;
+                        color: #fff;
+                    }
+                }
+            }
+    
+            .section-handbook-content__item {
+                display: flex;
+                flex-direction: column;
+                
+    
+                .section-handbook-content__item--img {
+                    background-image: url('../../../assets/handbook/phan-biet-benh-than-kinh-va-tam-than.jpg');
+                    width: 234px;
+                    height: 156px;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-color: #eee;   
+                    cursor: pointer;
+                }
+    
+                .section-handbook-content__item--title {
+                    padding: 8px 0;
+                    font-size: 14px;
+                    cursor: pointer;
+    
+                    &:hover {
+                        color: #45c3d2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//reset css
+
+.slick-prev {
+    left: -10px !important;
+    z-index: 1000;
+    height: 48px !important;
+    width: 44px !important;
+    background-color: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:before {
+        font-family: FontAwesome !important;
+        color: #45c3d2 !important;
+    }
+
+    &:hover {
+        background-color: #d7d7d7 !important;  
+    }
+}
+
+.slick-next {
+    right: 10px !important;
+    height: 48px !important;
+    width: 44px !important;
+    background-color: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:before {
+        font-family: FontAwesome !important;
+        color: #45c3d2 !important;
+    }
+
+    &:hover {
+        background-color: #d7d7d7 !important;  
+    }
+}

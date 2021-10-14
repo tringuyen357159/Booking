@@ -1,0 +1,130 @@
+.outstandingdoctor {
+    background-color: #fff;
+    border-bottom: 3px solid #efeef5;
+
+    .section-outstandingdoctor {
+        padding: 30px 60px;
+    
+        .section-outstandingdoctor-content {
+    
+            .section-outstandingdoctor-content__header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 30px 24px 40px 0;
+    
+                .section-outstandingdoctor-content__header--title {
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+    
+                .section-outstandingdoctor-content__header--btn {
+                    padding: 10px 14px;
+                    background-color: #ebebeb;
+                    color: #282e41;
+                    font-size: 14px;
+                    outline: none;
+                    border: none;
+    
+                    &:hover {
+                        background-color: #f7d800;
+                        color: #fff;
+                    }
+                }
+            }
+    
+            .section-outstandingdoctor-content__item {
+                padding: 5px 5px 5px 0;
+
+                .section-outstandingdoctor-content__item-customer {
+                    border: 1px solid #f0f0f0;
+                    flex-direction: column;
+                    align-items: center;
+                    display: flex !important;
+                    margin: 5px;
+                    padding: 10px 10px 40px 10px;
+                    justify-content: flex-start;
+                }
+                
+    
+                .section-outstandingdoctor-content__item--img {
+                    // background-image: url('../../../assets/doctor/bshung.jpg');
+                    width: 120px;
+                    height: 120px;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-color: #eee;   
+                    cursor: pointer;
+                    border-radius: 50%;
+                }
+    
+                .section-outstandingdoctor-content__item--title {
+                    padding: 8px 0;
+                    font-size: 14px;
+                    cursor: pointer;
+                    text-align: center;
+                    margin-bottom: 0;
+                    line-height: 20px;
+    
+                    &:hover {
+                        color: #45c3d2;
+                    }
+                }
+
+                .section-outstandingdoctor-content__item--desc {
+                    font-size: 14px;
+                    cursor: pointer;
+                    text-align: center;
+                    margin-bottom: 0;
+    
+                    &:hover {
+                        color: #45c3d2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//reset css
+
+.slick-prev {
+    left: -10px !important;
+    z-index: 1000;
+    height: 48px !important;
+    width: 44px !important;
+    background-color: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:before {
+        font-family: FontAwesome !important;
+        color: #45c3d2 !important;
+    }
+
+    &:hover {
+        background-color: #d7d7d7 !important;  
+    }
+}
+
+.slick-next {
+    right: 10px !important;
+    height: 48px !important;
+    width: 44px !important;
+    background-color: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:before {
+        font-family: FontAwesome !important;
+        color: #45c3d2 !important;
+    }
+
+    &:hover {
+        background-color: #d7d7d7 !important;  
+    }
+}
+
+.slick-disabled{
+    display: none !important;
+}

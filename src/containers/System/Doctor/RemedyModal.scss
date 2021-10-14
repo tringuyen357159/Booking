@@ -1,0 +1,22 @@
+.remedy-modal__container {
+
+    .remedy-modal__header {
+
+        h5 {
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+
+    .remedy-modal__content {
+
+        .remedy-modal__item {
+            display: flex;
+            flex-direction: column;
+
+            .remedy-modal__content--lable {
+                font-weight: 600;
+            }
+        }
+    }
+}

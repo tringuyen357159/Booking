@@ -1,0 +1,100 @@
+.doctor-info-container {
+    padding: 10px 0  10px 0;
+    padding-top: auto;
+
+    .doctor-info-content {
+        padding-left: 20px;
+        border-left: 1px solid #eee;
+
+        .doctor-info-content__top {
+            border-bottom: 1px solid #eee;
+
+            .doctor-info-content__lable {
+                text-transform: uppercase;
+                font-size: 16px;
+                color: #666;
+                font-weight: bold;
+                letter-spacing: 0.5px;
+            }
+    
+            .doctor-info-content__name--clinic {
+                font-size: 14;
+                font-weight: bold;
+                padding: 6px 0;
+                letter-spacing: 0.5px;
+            }
+    
+            .doctor-info-content__address--clinic {
+                font-size: 14;
+                font-weight: 200;
+                padding-bottom: 10px;
+                letter-spacing: 0.5px;
+            }
+        }
+
+        .doctor-info-content__bottom {
+            padding-top: 14px;
+
+            .doctor-info-content__price--lable {
+                text-transform: uppercase;
+                font-size: 16px;
+                color: #666;
+                font-weight: bold;
+                letter-spacing: 0.5px;
+            }
+
+            .doctor-info-content__price--price {
+                font-size: 15px;
+                margin-left: 4px;
+            }
+
+            .doctor-info-content__price--btn {
+                font-size: 15px;
+                cursor: pointer;
+                color: #45c3d2;
+                letter-spacing: 0.5px;
+            }
+
+            .doctor-info-content__price--desc {
+                margin: 6px 0 8px 0;
+                border: 1px solid #ddd;
+
+                .doctor-info-content__price--desc--top {
+                    background-color: #f8f8f8;
+                    display: flex;
+                    padding: 4px;
+                    justify-content: space-between;
+
+                    .doctor-info-content__price--desc--top--left {
+                        font-size: 15px;
+
+                        p {
+                            font-size: 13px;
+                            margin-bottom: 0;
+                            color: #666;
+                            letter-spacing: 0.5px;
+                        }
+                    }
+
+                    .doctor-info-content__price--desc--top--right {
+                        font-size: 15px;
+                    }
+                }
+
+                .doctor-info-content__price--desc--bottom {
+                    padding: 4px;
+                    background-color: #eee;
+                    font-size: 15px;
+                    letter-spacing: 0.5px;
+                }
+            }
+
+            .doctor-info-content__price--desc--btn {
+                font-size: 15px;
+                cursor: pointer;
+                color: #45c3d2;
+                letter-spacing: 0.5px;
+            }
+        }
+    }
+}

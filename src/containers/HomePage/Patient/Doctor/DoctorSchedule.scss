@@ -1,0 +1,99 @@
+.doctor-schedule-container {
+
+    .doctor-schedule-content {
+
+        .doctor-schedule-content__top {
+
+            .doctor-schedule-content__top--select {
+                width: 140px;
+                border: none;
+                border-bottom: 1px solid #999;
+                padding: 8px 5px;
+                color: #337ab7;
+                font-weight: bold;
+                background: transparent;
+                font-size: 14px;
+
+                &:focus {
+                    outline: none;
+                }
+                &:hover {
+                    cursor: pointer;
+                }
+
+                .doctor-schedule-content__top--select--item {
+                    border: 1px solid #333;
+                    border-bottom: none;
+                }
+            }
+        }
+
+        .doctor-schedule-content__bottom {
+
+            .doctor-schedule-content__bottom--title {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                
+                i {
+                    font-size: 16px;
+                    color: #333;
+                }
+
+                span {
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    color: #333;
+                    font-weight: bold;
+                    margin-left: 6px;
+                }
+            }
+
+            .doctor-schedule-content__bottom--content {
+
+                .doctor-schedule-content__bottom--btn {
+                   padding: 8px 10px;
+                   margin-right: 8px;
+                   border: none;
+                   outline: none;
+                   background-color: #fff04b;
+                   color: #333;
+                   font-weight: bolder;
+                   border-radius: 4px;
+                   letter-spacing: 0.5px;
+                   margin-bottom: 8px;
+
+                   &:hover {
+                       background-color: #45c3d2;
+                       color: white;
+                   }
+                }
+
+                .btn-vi {
+                    min-width: 120px;
+                }
+
+                .btn-en {
+                    min-width: 156px;
+                }
+
+                .doctor-schedule-content__bottom--desc {
+                    font-style: italic;
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #45c3d2;
+                }
+
+                .doctor-schedule-content__bottom--content--bookfree {
+                    font-size: 14px;
+                    color: #333;
+                    padding-top: 6px;
+                    letter-spacing: 0.5px;
+
+                    i {
+                        margin: 0 4px;
+                    }
+                }
+            }
+        }
+    }
+}

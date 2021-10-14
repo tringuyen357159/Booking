@@ -1,0 +1,29 @@
+.about {
+    background-color: #fff;
+
+    .section-about {
+        padding: 40px 50px;
+        .section-about-content {
+
+            .section-about-content__header {
+                font-size: 24px;
+                font-weight: bold;
+                padding-bottom: 30px;
+            }
+
+            .section-about-content__item {
+                display: flex;
+                justify-content: space-around;
+
+                .section-about-content__item--right {
+                    font-size: 16px;
+                    margin-left: 20px;
+                    line-height: 20px;
+                    text-align: justify;
+                    padding-top: 20px;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}

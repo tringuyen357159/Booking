@@ -1,0 +1,31 @@
+.manage-schedule-container {
+
+    .manage-schedule-content {
+        margin-top: 30px;
+
+        .manage-schedule-content__lable {
+            font-weight: 600;
+        }
+
+        .manage-schedule-content__hours {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 30px 0;
+
+            .manage-schedule-content__btn {
+                padding: 5px 20px;
+                border: none;
+                outline: none;
+                color: white;
+                border-radius: 5px;
+                margin: 0 20px;
+                margin-bottom: 20px;
+                background-color: #437063;
+
+                &.active {
+                    background-color: lightseagreen;
+                }
+            }
+        }
+    }
+}

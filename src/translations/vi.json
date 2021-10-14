@@ -1,0 +1,140 @@
+{
+    "home-header": {
+        "speciality": "Chuyên khoa",
+        "search-doctor": "Tìm bác sĩ theo chuyên khoa",
+        "health-facility": "Cơ sở y tế",
+        "select-room": "Chọn bệnh viện phòng khám",
+        "doctor": "Bác sĩ",
+        "select-doctor": "Chọn bác sĩ giỏi",
+        "fee": "Gói khám",
+        "check-health": "Khám sức khỏe tổng quát",
+        "support": "Hỗ trợ",
+        "welcome": "Xin chào, "
+    },
+    "banner": {
+        "medical-backgroud": "NỀN TẢNG Y TẾ",
+        "health-care" : "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "special-examination": "Khám chuyên khoa",
+        "remote-examination" : "Khám từ xa",
+        "general-examination" : "Khám tổng quát",
+        "medical-test": "Xét nghiệm y học",
+        "mental-health": "Sức khoẻ tinh thần",
+        "dental-examination" : "Khám nha khoa",
+        "search": "Tìm kiếm"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Người dùng",
+            "manage-doctor": "Quản lý bác sĩ",
+            "manage-admin": "Quản lý Admin",
+            "crud": "CRUD User",
+            "crud-reudx": "CRUD Redux",
+            "manage-clinic": "Quản lý phòng khám",
+            "clinic": "Phòng khám",
+            "specialty": "Chuyên khoa",
+            "manage-specialty": "Quản lý chuyên khoa",
+            "handbook": "Cẩm nang",
+            "manage-handbook": "Quản lý cẩm nang"
+        },
+        "doctor": {
+            "schedule": "Quản lý kế hoạch khám bệnh",
+            "patient": "Quản lý lịch khám bệnh nhân"
+        }
+    },
+    "manage-user": {
+        "add": "Thêm mới người dùng",
+        "firstname": "Tên",
+        "lastname": "Họ",
+        "address": "Địa chỉ",
+        "email": "Email",
+        "phone": "Số điện thoại",
+        "password": "Mật khẩu",
+        "gender": "Giới tính",
+        "role": "Vai trò",
+        "position": "Chức danh",
+        "image": "Ảnh đại diện",
+        "save": "Thêm mới",
+        "edit": "Lưu thay đổi",
+        "action": "Hành động",
+        "title": "Quản lý người dùng Redux",
+        "upload-img": "Tải ảnh"
+    },
+    "homepage": {
+        "out-standing-doctor": "Bác sĩ nổi bật tuần qua",
+        "see-more": "XEM THÊM",
+        "specialty": "Chuyên khoa phổ biến",
+        "medical-facility": "Cơ sở y tế nổi bật"
+    },
+    "manage-schedule": {
+        "title": "Quản lý kế hoạch khám bệnh bác sĩ",
+        "choose-doctor" : "Chọn bác sĩ",
+        "choose-time" : "Chọn ngày"
+    },
+    "patient": {
+        "detail-doctor":{
+            "schedule": "Lịch Khám",
+            "no-schedule": "Không có lịch hẹn trong thời gian này, vui lòng chọn thời gian khác!!",
+            "choose": "Chọn",
+            "book-free": "và đặt (miễn phí)",
+            "address": "ĐỊA CHỈ KHÁM",
+            "price": "GIÁ KHÁM:",
+            "more-info": "Xem chi tiết",
+            "payment": "Người bệnh có thể thanh toán chi phí bằng hình thức:",
+            "hidden-info": "Ẩn bảng giá"
+        },
+        "booking-modal": {
+            "title": "ĐẶT LỊCH KHÁM",
+            "fullname": "Họ tên:",
+            "free-booking": "Miễn phí đặt lịch",
+            "price": "GIÁ KHÁM:",
+            "phone": "Số điện thoại:",
+            "address": "Địa chỉ liên hệ:",
+            "gender":"Giới tính:",
+            "birthday": "Ngày sinh",
+            "reason": "Lý do khám:",
+            "save": "Thêm mới",
+            "close": "Đóng"
+        }
+    },
+    "manage-doctor": {
+        "manage-detail": "TẠO THÔNG TIN BÁC SĨ",
+        "manage-intro": "Thông tin giới thiệu",
+        "manage-select": "Chọn bác sĩ",
+        "save": "Thêm mới",
+        "edit": "Lưu thay đổi",
+        "manage-price": "Chọn giá",
+        "manage-province": "Chọn tỉnh thành",
+        "manage-payment": "Chọn phương thức thanh toán",
+        "manage-name-clinic": "Tên phòng khám",
+        "manage-addres-clinic": "Địa chỉ phòng khám",
+        "manage-desc": "Mô tả",
+        "manage-specialty": "Chọn chuyên khoa",
+        "manage-clinic": "Chọn phòng khám",
+        "manage-patient": "QUẢN LÝ LỊCH KHÁM BỆNH NHÂN",
+        "choose-date": "Chọn ngày khám",
+        "name": "Tên bệnh nhân",
+        "gender": "Giới tính",
+        "address":"Địa chỉ",
+        "reason": "Lý do khám",
+        "date": "Thời gian",
+        "action":"Hành động",
+        "confirm": "Xác Nhận",
+        "no-data": "Không có bệnh nhân"
+        
+    },
+    "manage-specialty": {
+        "manage-specialty": "QUẢN LÝ CHUYÊN KHOA",
+        "name": "Tên chuyên khoa",
+        "image": "Ảnh chuyên khoa",
+        "upload": "Tải ảnh",
+        "save": "Thêm mới"
+    },
+    "manage-clinic": {
+        "manage-clinic": "QUẢN LÝ PHÒNG KHÁM",
+        "name": "Tên phòng khám",
+        "image": "Ảnh phòng khám",
+        "address": "Địa chỉ phòng khám",
+        "upload": "Tải ảnh",
+        "save": "Thêm mới"
+    }
+}
